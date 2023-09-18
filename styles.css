@@ -1,0 +1,20 @@
+.box {
+    height: 4vw;
+    min-height: 30px;
+    width: 4vw;
+    min-width: 30px;
+    background-color: black;
+    margin: 3px;
+}
+
+.row-div {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
