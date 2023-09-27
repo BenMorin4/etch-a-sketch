@@ -8,9 +8,17 @@
     <title>Etch-a-Sketch</title>
 </head>
 <body>
-    <div class="grid-container">
-        <script src="etch.js" defer></script>
-        <div id="grid"></div>
+    <script src="etch.js" defer></script>
+   
+    <div id="container" class="container">      
+        <form class="form" autocomplete="off" default>
+            <label for="size">Grid Size:</label>
+            <input type="text" placeholder="16" size="2px" id="size" name="size" />
+            <div id="matchingSize" class="matchingSize">x 16</div>
+            <button type="button" id="button" value="">Set Grid</button>
+       </form>
+       <br />
+       <div class="grid"></div>
     </div>
 </body>
 </html>
